@@ -1,7 +1,20 @@
-console.log("Hello TNT ethiopia family");
+console.log("Hello TNT Ethiopia Family");
 
-var carName;
+// // Declaration
+const carName = "Toyota";
+const firstName = "Abdisa";
+const lastName = "ketema";
 
-let carName2;
+// // // Assignment/Initialization
 
-const carName;
+// let test = "Hello fam";
+
+// // Redeclaration
+// var test = 30;
+// console.log(test);
+// // Reassignment
+// test = "reassigning";
+
+console.log(carName);
+console.log(firstName);
+
