@@ -1,9 +1,9 @@
 console.log("Hello TNT Ethiopia Family");
 
 // // Declaration
-const carName = "Toyota";
+let carName = null;
 const firstName = "Abdisa";
-const lastName = "ketema";
+const lastName = `ketema`;
 
 // // // Assignment/Initialization
 
@@ -17,4 +17,6 @@ const lastName = "ketema";
 
 console.log(carName);
 console.log(firstName);
+console.log(lastName);
 
+typeof(carName)
