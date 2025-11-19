@@ -110,3 +110,52 @@
 // console.log(blockVar); // Works inside the block
 
 // console.log(blockVar); // Error! blockVar is not accessible outside
+
+// Regular function
+// function greet(name) {
+//   console.log(name);
+// }
+
+// // greet("bob")
+
+// // Arrow function equivalent
+// const greet = (name) => {
+//   console.log(name);
+// };
+
+// const greet = (name) => {
+//     console.log(name)
+// }
+
+// Arrow Function with a single statement
+const num = (x) => console.log(x);
+
+// Arrow Function with Multiple Statements
+const add = (num1, num2) => {
+    let sum = num1 + num2;
+    console.log(sum);
+}
+
+// Arrow Function Without Parameters
+const greetHello = () => {console.log("Hello")};
+
+// Arrow Function with One Parameter (parentheses optional)
+const printNum = x => console.log(x);
+
+// No parameters - parentheses required
+const sayHi = () => console.log("Hi");
+
+// One parameter - parentheses optional
+const square = x => x * x;
+
+// Multiple parameters - parentheses required
+const multiply = a => a * b;
+
+// Multiple statements - braces and return required
+// const calculate = (a, b) => {
+//     const result = a + b;
+//     return result * 2;
+// };
+
+// Single expression - implicit return
+// const double = x => x * 2;
