@@ -127,35 +127,88 @@
 //     console.log(name)
 // }
 
-// Arrow Function with a single statement
-const num = (x) => console.log(x);
+// // Arrow Function with a single statement
+// const num = (x) => console.log(x);
 
-// Arrow Function with Multiple Statements
-const add = (num1, num2) => {
-    let sum = num1 + num2;
-    console.log(sum);
+// // Arrow Function with Multiple Statements
+// const add = (num1, num2) => {
+//     let sum = num1 + num2;
+//     console.log(sum);
+// }
+
+// // Arrow Function Without Parameters
+// const greetHello = () => {console.log("Hello")};
+
+// // Arrow Function with One Parameter (parentheses optional)
+// const printNum = x => console.log(x);
+
+// // No parameters - parentheses required
+// const sayHi = () => console.log("Hi");
+
+// // One parameter - parentheses optional
+// const square = x => x * x;
+
+// // Multiple parameters - parentheses required
+// const multiply = a => a * b;
+
+// // Multiple statements - braces and return required
+// // const calculate = (a, b) => {
+// //     const result = a + b;
+// //     return result * 2;
+// // };
+
+// // Single expression - implicit return
+// // const double = x => x * 2;
+
+
+//  - Understanding statements: conditional statements
+
+// - Used to execute different blocks of code based on certain conditions.
+
+// - Evaluation of a condition  
+//   (13 > 5)  
+
+//   (13 > 20)
+
+// - Decision  
+//    - true or false  
+
+// - Action  
+//    - what's the next step after decision
+
+// - Analogy: Choosing an Outfit  
+//   - Imagine you’re deciding what to wear based on the weather. This decision process can be broken down into a conditional statement:
+
+// - Condition: Check the weather.
+// - Actions:
+//     - If it’s raining, wear a raincoat.
+//     - If it’s sunny, wear sunglasses.
+//     - If it’s cold, wear a jacket.
+//     - Otherwise, wear a t-shirt. (Default case)
+
+
+// 1 - If statements
+
+// - Definition
+//   - An “if” statement is a programming conditional statement that we use to specify a block.
+
+// - Syntax
+//     if (condition) {
+    // write the code you want to be executed if the condition is true
+// }
+
+if (false) {
+    console.log("yes")
 }
 
-// Arrow Function Without Parameters
-const greetHello = () => {console.log("Hello")};
+// const canVote = (age)={  
+//     if(age >= 18){  
+//     console.log("You can vote")  
+//     }  
+//     if(age < 18){  
+//     console.log("No")  
+//     }  
+// }
 
-// Arrow Function with One Parameter (parentheses optional)
-const printNum = x => console.log(x);
-
-// No parameters - parentheses required
-const sayHi = () => console.log("Hi");
-
-// One parameter - parentheses optional
-const square = x => x * x;
-
-// Multiple parameters - parentheses required
-const multiply = a => a * b;
-
-// Multiple statements - braces and return required
-// const calculate = (a, b) => {
-//     const result = a + b;
-//     return result * 2;
-// };
-
-// Single expression - implicit return
-// const double = x => x * 2;
+// canVote(12)
+// canVote(20)
