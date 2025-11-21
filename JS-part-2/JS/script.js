@@ -160,23 +160,22 @@
 // // Single expression - implicit return
 // // const double = x => x * 2;
 
-
 //  - Understanding statements: conditional statements
 
 // - Used to execute different blocks of code based on certain conditions.
 
-// - Evaluation of a condition  
-//   (13 > 5)  
+// - Evaluation of a condition
+//   (13 > 5)
 
 //   (13 > 20)
 
-// - Decision  
-//    - true or false  
+// - Decision
+//    - true or false
 
-// - Action  
+// - Action
 //    - what's the next step after decision
 
-// - Analogy: Choosing an Outfit  
+// - Analogy: Choosing an Outfit
 //   - Imagine you’re deciding what to wear based on the weather. This decision process can be broken down into a conditional statement:
 
 // - Condition: Check the weather.
@@ -186,7 +185,6 @@
 //     - If it’s cold, wear a jacket.
 //     - Otherwise, wear a t-shirt. (Default case)
 
-
 // 1 - If statements
 
 // - Definition
@@ -194,21 +192,91 @@
 
 // - Syntax
 //     if (condition) {
-    // write the code you want to be executed if the condition is true
+// write the code you want to be executed if the condition is true
 // }
 
-if (false) {
-    console.log("yes")
+// if (false) {
+//   console.log("yes");
+// }
+
+// const canVote = (age) => {
+//   if (age >= 18) {
+//     console.log("You can vote");
+//   }
+//   if (age < 18) {
+//     console.log("No");
+//   }
+// };
+
+// canVote(12);
+
+// If ... Else Statements
+
+// The code inside the else block is executed only if the condition in the if statement is false.
+
+// The program checks conditions in order. Once a condition is met, the rest of the else if/else blocks are skipped.
+
+// A key difference from using two separate if statements is that with if...else, only one block will run—either the if block or the else block, never both.
+
+
+// const canVote = (age) => {
+//   if (age >= 18) {
+//     console.log("You can vote");
+//   } else {
+//     console.log("No");
+//   }
+// };
+
+// canVote(20);
+
+
+
+
+// if-else-if
+
+// let weather = "sunf";
+
+
+// if (weather === "sunny") {
+//   console.log("Sun glass");
+// } else if (weather === "rainy") {
+//   console.log("Raincoat");
+// } else {
+//   console.log("T-shirt");
+// }
+
+
+
+
+
+// // const canVote = (age) => {
+//   if (age >= 18) {
+//     console.log("You can vote");
+//   } else {
+//     console.log("No");
+//   }
+// };
+
+//Ternary
+// let age = 12;
+// age >= 18 ? console.log("you can vote") : console.log("No");
+
+var greetings;
+var timeOfDay = "satca";
+
+switch (timeOfDay) {
+  case "morning":
+    greetings = "Good morning";
+    break;
+  case "afternoon":
+    greetings = "Good afternoon";
+    break;
+  case "evening":
+    greetings = "Good evening";
+    break;
+  default:
+    greetings = "Hi there";
+    break;
 }
 
-// const canVote = (age)={  
-//     if(age >= 18){  
-//     console.log("You can vote")  
-//     }  
-//     if(age < 18){  
-//     console.log("No")  
-//     }  
-// }
-
-// canVote(12)
-// canVote(20)
+console.log(greetings); // "Good afternoon"
