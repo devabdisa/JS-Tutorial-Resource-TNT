@@ -2,11 +2,11 @@
 
 // - What is Data model
 
-      // Refers to the way data is structured, organized, and manipulated within a software system.
+// Refers to the way data is structured, organized, and manipulated within a software system.
 
 // - What is Object Oriented Data Model?
 
-       // Data is represented and structured as an object.
+// Data is represented and structured as an object.
 
 // Is a way of modeling real world objects as a software objects.
 
@@ -21,14 +21,6 @@
 // Method/function(action) - are actions that can be performed on objects.
 
 // The object oriented data model
-
-
-
-
-
-
-
-
 
 // - Analogy: A Car
 
@@ -51,3 +43,46 @@
 // Stop: A function that stops the car.
 
 // - The car represents an object. It has specific attributes(properties) that describe it and methods that define what it can do.
+
+// - Definition of object-oriented programming (OOP)
+
+// OOP is a programming paradigm that relies on the concept of objects.
+
+// OOP is an approach to problem solving where all computations are carried out using objects.
+
+// - Object in JavaScript
+
+// An object is a non-primitive, structured data type in JavaScript.
+
+// A JavaScript object is a collection of properties and methods, defined as a key-value pair.
+
+// Each property has a key and a value.
+
+// - How to create objects in JavaScript
+
+// Creating object using object literal: using a simple key-value pair structure
+
+// - Example:
+// key:value,
+
+let person = {
+  firstName: "John",
+  lastName: "Alice",
+  someFunction: () => {
+    return this.firstName;
+  },
+};
+
+let car = {
+  make: "Toyota",
+  model: "Camry",
+  year: 2020,
+  startEngine: function () {
+    console.log("Engine started");
+  },
+};
+
+// console.log(car);
+// console.log(car.year)
+console.log(person);
+console.log(person["firstName"]);
