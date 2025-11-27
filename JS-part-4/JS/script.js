@@ -65,24 +65,36 @@
 // - Example:
 // key:value,
 
-let person = {
-  firstName: "John",
-  lastName: "Alice",
-  someFunction: () => {
-    return this.firstName;
-  },
-};
+// let person = {
+//   firstName: "John",
+//   lastName: "Alice",
+//   address:
 
-let car = {
-  make: "Toyota",
-  model: "Camry",
-  year: 2020,
-  startEngine: function () {
-    console.log("Engine started");
-  },
-};
+//   someFunction: () => {
+//     return this.firstName;
+//   },
+// };
+
+// let car = {
+//   make: "Toyota",
+//   model: "Camry",
+//   year: 2020,
+//   startEngine: function () {
+//     console.log("Engine started");
+//   },
+// };
 
 // console.log(car);
 // console.log(car.year)
-console.log(person);
-console.log(person["firstName"]);
+// console.log(person.someFunction());
+// console.log(person["firstName"]);
+
+var person2 = {
+  firstName: "James",
+  lastName: "Bond",
+  address: {
+    city: "London",
+    country: "UK",
+  },
+};
+console.log(person2.address.city);
