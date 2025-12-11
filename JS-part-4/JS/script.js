@@ -219,11 +219,40 @@
 // 3. shift()
 // const arr = [1, 2, 3];
 // const firstElement = arr.shift();
-// Removes 1
 // console.log(firstElement); //
 // console.log(arr); // Outputs: [2, 3]
 
 // 4. unshift()
 // const arr = [2, 3];
-// arr.unshift(1); // Adds 1 to the beginning
+// arr.unshift(5); // Adds 1 to the beginning
 // console.log(arr); // Outputs: [1, 2, 3]
+
+
+
+
+
+
+// 7. indexOf()
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.indexOf(3)); // Outputs: 2
+
+// 8. includes()
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.includes(3)); // Outputs: true
+
+// 9. forEach()
+// const arr = [1, 2, 3, 4, 5];
+// arr.forEach(num => console.log(num)); // Outputs: 1 2 3 4 5
+
+// 10. filter()
+// const numbers = [1, 2, 3, 4, 5];
+// Filter numbers greater than 3
+// const filtered = numbers.filter(num => num > 3);
+// console.log(filtered); // Outputs: [4, 5]
+
+// 11. map()
+// const numbers = [1, 2, 3];
+// const doubled = numbers.map(num => num * 2);
+// console.log(doubled); // Outputs: [2, 4, 6]
+
+
