@@ -132,8 +132,57 @@ console.log(person2);
 // }
 
 // let student1 = new Student("James", "test@test.com");
-// let student2 = new Student("abebe", "abebe@test.com");
-// let student3 = new Student("kebede", "kebede@test.com");
+// let student2 = new Student("", "abebe@test.com");
+// let student3 = new Student("", "kebede@test.com");
 // console.log(student1);
 // console.log(student2);
 // console.log(student3);
+
+
+// Most common built-in JavaScript Objects:
+
+// String(),
+// Array(),
+// Math(),
+// Date(),
+// Object(),
+// JSON(),
+
+
+
+// 1. Length
+// const str = "Hello";
+// console.log(str.Length); // Outputs: 5
+
+// 2. toUpperCase()
+// const str = "hello";
+// console.log(str.toUpperCase());
+// Outputs: "HELLO"
+
+// 3. toLowerCase()
+// const str = "HELLO";
+// console.log(str.toLowerCase());
+// Outputs: "hello"
+
+// 4. charAt(index)
+// const str = "JavaScript";
+// console.log(str.charAt(5)); // Outputs: "c"
+
+// 5. substring(start, end)
+// const str = "Hello, world!";
+// console.log(str.substring(1, 5)); // Outputs: "Hello"
+
+// 6. indexOf(searchValue)
+// const str = "Hello, world!";
+// console.log(str.indexOf("x"));
+// Outputs: 7
+
+// 8. split(separator)
+// const str = "Apple";
+// const fruits = str.split("");
+// console.log(fruits);
+
+// 9. slice(startIndex, endIndex)
+// const str = "Hello, world!";
+// console.log(str.slice(0, 5)); // Outputs: "Hello"
+// console.log(str.slice(-1)); // Outputs: "world!"
