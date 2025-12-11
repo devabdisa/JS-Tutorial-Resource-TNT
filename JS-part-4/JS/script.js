@@ -97,10 +97,7 @@ var person2 = {
     country: "UK",
   },
 };
-console.log(person2.address.city);
-
-
-
+console.log(person2);
 
 // 6.3 - JavaScript object constructors
 
@@ -124,16 +121,19 @@ console.log(person2.address.city);
 
 // Inside the constructor, "this" refers to the new object being created.
 
-
-
-
-// function Student(name, email) {
-//   (this.name = name),
-//     (this.email = email),
-//     (this.getName = function () {
-//       return this.name;
-//     });
+// class Student {
+//   constructor(name, email) {
+//     (this.name = name),
+//       (this.email = email),
+//       (this.getName = function () {
+//         return this.name;
+//       });
+//   }
 // }
 
 // let student1 = new Student("James", "test@test.com");
+// let student2 = new Student("abebe", "abebe@test.com");
+// let student3 = new Student("kebede", "kebede@test.com");
 // console.log(student1);
+// console.log(student2);
+// console.log(student3);
