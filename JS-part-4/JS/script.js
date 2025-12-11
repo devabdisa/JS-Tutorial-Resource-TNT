@@ -240,19 +240,66 @@
 // const arr = [1, 2, 3, 4, 5];
 // console.log(arr.includes(3)); // Outputs: true
 
+
+
 // 9. forEach()
+// Executes a function for each element in the array (like a for loop).
+//  Best for:
+// When you want to do something for each item, but don’t want to return a new array.
+
+// let fruits = ['apple', 'banana', 'mango'];
+
+// fruits.forEach(function(x) {
+//   console.log('I like ' + x);
+// });
+
 // const arr = [1, 2, 3, 4, 5];
-// arr.forEach(num => console.log(num)); // Outputs: 1 2 3 4 5
+// arr.forEach(x => console.log(x)); // Outputs: 1 2 3 4 5
+
+// find()
+// 🔹 What it does:
+// Returns the first element that matches a condition.
+// 🔹 Best for:
+// When you're searching for just one matching item.
+// let numbers = [5, 10, 15, 20];
+
+// let result = numbers.find(function(num) {
+//   return num >= 10;
+// });
+
+// console.log(result); // 15
+
+
 
 // 10. filter()
 // const numbers = [1, 2, 3, 4, 5];
-// Filter numbers greater than 3
+// // Filter numbers greater than 3
 // const filtered = numbers.filter(num => num > 3);
 // console.log(filtered); // Outputs: [4, 5]
 
-// 11. map()
-// const numbers = [1, 2, 3];
-// const doubled = numbers.map(num => num * 2);
+// // 11. map()
+// const numbers = [4, 2, 6];
+// const doubled = numbers.map((num) => num / 2);
 // console.log(doubled); // Outputs: [2, 4, 6]
 
 
+
+//  Mostly used built-in JavaScript object (Math object)
+
+
+// 1. Math.ceil(x)
+// Rounds a number UP to the nearest integer.
+// console.log(Math.ceil(4.2)); // Outputs: 5
+
+// 2. Math.floor(x)
+// Rounds a number DOWN to the nearest integer.
+// console.log(Math.floor(4.7)); // Outputs: 4
+
+// 3. Math.round(x)
+// Rounds a number to the nearest integer.
+// console.log(Math.round(4.4)); // Outputs: 5
+
+// 4. Math.random()
+// Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).
+console.log(Math.random());
+// Outputs a random number between 0 and 1
