@@ -89,15 +89,15 @@
 // console.log(person.someFunction());
 // console.log(person["firstName"]);
 
-var person2 = {
-  firstName: "James",
-  lastName: "Bond",
-  address: {
-    city: "London",
-    country: "UK",
-  },
-};
-console.log(person2);
+// var person2 = {
+//   firstName: "James",
+//   lastName: "Bond",
+//   address: {
+//     city: "London",
+//     country: "UK",
+//   },
+// };
+// console.log(person2);
 
 // 6.3 - JavaScript object constructors
 
@@ -152,37 +152,49 @@ console.log(person2);
 
 // 1. Length
 // const str = "Hello";
-// console.log(str.Length); // Outputs: 5
+// console.log(str.length); // Outputs: 5
 
 // 2. toUpperCase()
-// const str = "hello";
+// const str = "Hello";
 // console.log(str.toUpperCase());
-// Outputs: "HELLO"
+
 
 // 3. toLowerCase()
 // const str = "HELLO";
 // console.log(str.toLowerCase());
-// Outputs: "hello"
+
 
 // 4. charAt(index)
 // const str = "JavaScript";
-// console.log(str.charAt(5)); // Outputs: "c"
+// console.log(str.charAt(3)); // Outputs: "c"
 
 // 5. substring(start, end)
 // const str = "Hello, world!";
-// console.log(str.substring(1, 5)); // Outputs: "Hello"
+// console.log(str.substring(0, 6)); // Outputs: "Hello"
 
 // 6. indexOf(searchValue)
 // const str = "Hello, world!";
-// console.log(str.indexOf("x"));
-// Outputs: 7
+// console.log(str.indexOf(""));
 
 // 8. split(separator)
-// const str = "Apple";
-// const fruits = str.split("");
+// const str = "Apple,banana";
+// const fruits = str.split(",");
 // console.log(fruits);
 
 // 9. slice(startIndex, endIndex)
 // const str = "Hello, world!";
 // console.log(str.slice(0, 5)); // Outputs: "Hello"
-// console.log(str.slice(-1)); // Outputs: "world!"
+// console.log(str.slice(-2)); // Outputs: "world!"
+
+
+let sentence = "  JavaScript is awesome!  ";
+
+console.log(sentence.length);            // 24 (including spaces)
+console.log(sentence.trim());            // "JavaScript is awesome!"
+console.log(sentence.toUpperCase());    // "  JAVASCRIPT IS AWESOME!  "
+console.log(sentence.indexOf("is"));    // 12
+console.log(sentence.includes("some"));  // false
+console.log(sentence.slice(2, 12));      // "JavaScript"
+console.log(sentence.replace("awesome", "fantastic"));  // "  JavaScript is fantastic!  "
+console.log(sentence.split(" "));       // Splits into words and empty strings due to spaces
+console.log(sentence.charAt(5));        // "S"
