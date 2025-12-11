@@ -187,14 +187,43 @@
 // console.log(str.slice(-2)); // Outputs: "world!"
 
 
-let sentence = "  JavaScript is awesome!  ";
+// let sentence = "  JavaScript is awesome!  ";
 
-console.log(sentence.length);            // 24 (including spaces)
-console.log(sentence.trim());            // "JavaScript is awesome!"
-console.log(sentence.toUpperCase());    // "  JAVASCRIPT IS AWESOME!  "
-console.log(sentence.indexOf("is"));    // 12
-console.log(sentence.includes("some"));  // false
-console.log(sentence.slice(2, 12));      // "JavaScript"
-console.log(sentence.replace("awesome", "fantastic"));  // "  JavaScript is fantastic!  "
-console.log(sentence.split(" "));       // Splits into words and empty strings due to spaces
-console.log(sentence.charAt(5));        // "S"
+// console.log(sentence.length);            // 24 (including spaces)
+// console.log(sentence.trim());            // "JavaScript is awesome!"
+// console.log(sentence.toUpperCase());    // "  JAVASCRIPT IS AWESOME!  "
+// console.log(sentence.indexOf("is"));    // 12
+// console.log(sentence.includes("some"));  // false
+// console.log(sentence.slice(2, 12));      // "JavaScript"
+// console.log(sentence.replace("awesome", "fantastic"));  // "  JavaScript is fantastic!  "
+// console.log(sentence.split(" "));       // Splits into words and empty strings due to spaces
+// console.log(sentence.charAt(5));        // "S"
+
+
+
+// Mostly used built-in JavaScript object (array object)  
+
+
+// 1. push()  
+// const arr = [1, 2, 3];  
+// arr.push(4); // Adds 4 to the end  
+// console.log(arr); // Outputs: [1, 2, 3, 4]  
+
+// 2. pop()  
+// const arr = [1, 2, 3];  
+// const LastElement = arr.pop(); // Removes 3  
+// console.log(LastElement); // Outputs: 3  
+// console.log(arr); // Outputs: [1, 2]
+
+
+// 3. shift()
+// const arr = [1, 2, 3];
+// const firstElement = arr.shift();
+// Removes 1
+// console.log(firstElement); //
+// console.log(arr); // Outputs: [2, 3]
+
+// 4. unshift()
+// const arr = [2, 3];
+// arr.unshift(1); // Adds 1 to the beginning
+// console.log(arr); // Outputs: [1, 2, 3]
