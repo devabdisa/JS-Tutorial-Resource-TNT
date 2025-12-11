@@ -98,3 +98,42 @@ var person2 = {
   },
 };
 console.log(person2.address.city);
+
+
+
+
+// 6.3 - JavaScript object constructors
+
+// What is a constructor function?
+
+// Is a function that initializes/creates an object.
+
+// Is a template or a blueprint for creating many objects of the same "type".
+
+// Instantiation is the process of creating an instance (or object) from a constructor function in object-oriented programming.
+
+// Rules or good practices creating a constructor function
+
+// Name constructor functions with an upper-case first letter.
+
+// How to create object instance from a constructor function
+
+// Use the keyword "new" followed by the name of the constructor function to create Objects of the same type.
+
+// "this" value/keyword
+
+// Inside the constructor, "this" refers to the new object being created.
+
+
+
+
+// function Student(name, email) {
+//   (this.name = name),
+//     (this.email = email),
+//     (this.getName = function () {
+//       return this.name;
+//     });
+// }
+
+// let student1 = new Student("James", "test@test.com");
+// console.log(student1);
