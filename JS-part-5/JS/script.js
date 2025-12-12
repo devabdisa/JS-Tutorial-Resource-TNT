@@ -1,4 +1,6 @@
-// console.log(document.body);
+console.dir(document);
+console.log(document.body.children);
+console.log(document.body.childNodes);
 // document.body.style.backgroundColor = "red";
 // alert("hello class")
 
