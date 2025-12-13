@@ -83,3 +83,33 @@
 // for (let i = 0; i < items.length; i++) {
 //     items[i].className = "yellow";
 // }
+
+
+// Selecting elements (Traversing)
+
+// 1. firstElementChild
+// const parentElement = document.getElementById("tech")
+// console.log(parentElement);
+// console.log(parentElement.firstElementChild);
+// console.log(parentElement.childNodes);
+// console.log(parentElement.firstChild);
+
+// / 2. lastElementChild
+// const parent = document.getElementById("tech");
+// console.log(parent.lastElementChild);
+
+// / 3. parentElement
+// const bmw = document.getElementById("two");
+// console.log(bmw)
+// console.log(bmw.parentElement);
+
+// / 4. nextElementSibling
+// const referenceElement = document.getElementById("three")
+// console.log(referenceElement)
+// console.log(referenceElement.nextElementSibling)
+
+// / 5. nth child
+// const secondChild = document.querySelector(".red:nth-child(1)")
+
+// console.log(secondChild)
+
