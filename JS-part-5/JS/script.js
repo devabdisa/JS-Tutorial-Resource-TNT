@@ -27,13 +27,59 @@
 //Multiple
 
 // 3. getElementsByClassName() method
-const test2 = document.getElementsByClassName("red");
-console.log(test2);
+// const test2 = document.getElementsByClassName("red");
+// console.log(test2);
 
-// 4. getElementsByTagName() method
-const test3 = document.getElementsByTagName("div");
-console.log(test3);
+// // 4. getElementsByTagName() method
+// const test3 = document.getElementsByTagName("div");
+// console.log(test3);
 
-// 5. querySelectorAll() method
-const test4 = document.querySelectorAll(".red");
-console.log(test4);
+// // 5. querySelectorAll() method
+// const test4 = document.querySelectorAll(".red");
+// console.log(test4);
+
+
+
+//  Selecting elements (HTML collection vs NodeList)
+// Selecting multiple elements and changing properties by one instruction
+
+// Use for loop to apply same property for multiple elements
+
+// HTML collection vs NodeList
+
+// HTML collection
+// It is always live means when there is a change in the document, it will be automatically updated to reflect the change.
+
+// Selectors that return HTML collection:
+
+// getElementsByClassName()
+
+// getElementsByTagName()
+
+// Returns DOM element (i.e., only things that has opening tag and closing tag inside)
+
+// The returned list is live
+
+// NodeList
+// Selectors that return NodeList:
+
+// querySelectorAll()
+
+// Returns DOM node (i.e., everything inside the selected element)
+
+// The returned list is static
+
+
+//   HTMLCollection vs NodeList
+
+// const items = document.getElementsByClassName("red");
+// console.log(items)
+
+
+// const items = document.querySelectorAll(".red");
+// console.log(items)
+
+
+// for (let i = 0; i < items.length; i++) {
+//     items[i].className = "yellow";
+// }
