@@ -160,22 +160,38 @@
 
 // console.log(document.getElementById("one"))
 // 1. className & classList
-// const amazon = document.getElementById("two")
-// console.log(amazon)
-// amazon.className = 'yellow'
-// amazon.classList.add('test')
-// amazon.classList.remove('red')
+// const toyota = document.getElementById("two")
+// console.log(toyota)
+// toyota.className = 'yellow'
+// toyota.classList.add('test')
+// toyota.classList.remove('red')
 
 // 2. id
-// const amazon = document.getElementById("two")
-// console.log(amazon)
-// amazon.id = 'newId'
+// const toyota = document.getElementById("two")
+// console.log(toyota)
+// toyota.id = 'newId'
+// console.log(toyota.id);
 
 // 3. getAttribute()
-// const amazon = document.getElementById("two")
-// console.log(amazon.getAttribute("name"));
+// const toyota = document.getElementById("two")
+// console.log(toyota)
+// console.log(toyota.getAttribute("id"));
 
 // 4. setAttribute()
-// const amazon = document.getElementById("two")
-// console.log(amazon)
-// amazon.setAttribute("name", "amazon");
+// const toyota = document.getElementById("two")
+// console.log(toyota)
+// toyota.setAttribute("name", "toyota");
+
+
+
+
+// Altering (inline styling)
+
+// const bmw = document.getElementById("one")
+// console.dir(bmw)
+// bmw.style.backgroundColor = "green";
+// bmw.style.fontSize = "60px";
+// bmw.style.color = "white";
+// bmw.style.border = "red solid";
+// bmw.style.display = "none";
+// bmw.style.display = "block";
