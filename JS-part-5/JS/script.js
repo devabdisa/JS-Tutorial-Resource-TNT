@@ -122,9 +122,10 @@
 // 1. CreateElement()
 // const newElement = document.createElement('h1')
 // console.log(newElement)
-// newElement.innerText = "New"
+// newElement.textContent = "New";
 
-// * innerText, textContent, innerHTML, outerHTML
+
+// innerText, textContent, innerHTML, outerHTML
 
 // 2. append()
 // const parent = document.getElementById("tech");
@@ -138,6 +139,7 @@
 
 // /4. before() & after()
 // const referenceElement = document.getElementById("two");
+// console.log(referenceElement);
 // referenceElement.before(newElement)
 // referenceElement.after(newElement)
 
@@ -149,3 +151,31 @@
 // const parent = document.getElementById("tech");
 // const referenceElement = document.getElementById("two");
 // parent.insertBefore(newElement, referenceElement)
+
+
+
+
+
+// Altering (HTML attributes)
+
+// console.log(document.getElementById("one"))
+// 1. className & classList
+// const amazon = document.getElementById("two")
+// console.log(amazon)
+// amazon.className = 'yellow'
+// amazon.classList.add('test')
+// amazon.classList.remove('red')
+
+// 2. id
+// const amazon = document.getElementById("two")
+// console.log(amazon)
+// amazon.id = 'newId'
+
+// 3. getAttribute()
+// const amazon = document.getElementById("two")
+// console.log(amazon.getAttribute("name"));
+
+// 4. setAttribute()
+// const amazon = document.getElementById("two")
+// console.log(amazon)
+// amazon.setAttribute("name", "amazon");
