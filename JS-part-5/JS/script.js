@@ -113,3 +113,39 @@
 
 // console.log(secondChild)
 
+
+
+
+// Altering part I
+
+
+// 1. CreateElement()
+// const newElement = document.createElement('h1')
+// console.log(newElement)
+// newElement.innerText = "New"
+
+// * innerText, textContent, innerHTML, outerHTML
+
+// 2. append()
+// const parent = document.getElementById("tech");
+// console.log(parent);
+// parent.append(newElement)
+
+// 3. prepend()
+// const parent = document.getElementById("tech");
+// console.log(parent);
+// parent.prepend(newElement)
+
+// /4. before() & after()
+// const referenceElement = document.getElementById("two");
+// referenceElement.before(newElement)
+// referenceElement.after(newElement)
+
+// /5. removeChild() & remove()
+// parent.removeChild(newElement)
+// newElement.remove();
+
+// /6. insertBefore()
+// const parent = document.getElementById("tech");
+// const referenceElement = document.getElementById("two");
+// parent.insertBefore(newElement, referenceElement)
