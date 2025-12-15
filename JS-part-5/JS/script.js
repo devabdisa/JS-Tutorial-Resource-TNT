@@ -249,16 +249,70 @@
 // 1. HTML event handlers attribute
 // ********************
 
-const bmw = document.getElementById("one");
-console.log(bmw);
-// bmw.style.color = "white";
+// const bmw = document.getElementById("one");
+// console.log(bmw);
+// // bmw.style.color = "white";
 
-function changeColor() {
-  bmw.style.color = "white";
-  bmw.style.backgroundColor = "green";
-}
+// function changeColor() {
+//   bmw.style.color = "white";
+//   bmw.style.backgroundColor = "green";
+// }
 
-function removeColor() {
-    bmw.style.color = "";
-    bmw.style.backgroundColor = "";
-}
+// function removeColor() {
+//     bmw.style.color = "";
+//     bmw.style.backgroundColor = "";
+// }
+
+// ****************************
+// 2. Traditional DOM event handlers
+// ****************************
+
+// const bmw = document.getElementById("one");
+// const btn = document.getElementById("btn");
+
+// function changeColor() {
+//     bmw.style.color = "white";
+//     bmw.style.backgroundColor = "green";
+// }
+
+// function removeColor() {
+//     bmw.style.color = "";
+//     bmw.style.backgroundColor = "";
+// }
+
+// btn.onclick = changeColor;
+// btn.ondblclick = removeColor;
+
+// ***********************
+// 3. DOM Level event listeners
+// ***********************
+
+// const btn = document.getElementById("btn");
+// const bmw = document.getElementById("one");
+
+// function changeColor() {
+//   bmw.style.color = "white";
+//   bmw.style.backgroundColor = "green";
+// }
+
+// btn.addEventListener("click", changeColor);
+
+
+
+// Assign Multiple handlers
+
+// Traditional method
+// btn.onclick = function () {
+//     bmw.style.backgroundColor = "green";
+// };
+// btn.onclick = function () {
+//     bmw.style.color = "white";
+// };
+
+// DOM Level
+// btn.addEventListener("click", function () {
+//     bmw.style.backgroundColor = "green";
+// });
+// btn.addEventListener("click", function () {
+//     bmw.style.color = "white";
+// });
