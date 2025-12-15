@@ -287,17 +287,13 @@
 // 3. DOM Level event listeners
 // ***********************
 
-// const btn = document.getElementById("btn");
-// const bmw = document.getElementById("one");
+const btn = document.getElementById("btn");
+const bmw = document.getElementById("one");
 
-// function changeColor() {
+// btn.addEventListener("click", function () {
 //   bmw.style.color = "white";
 //   bmw.style.backgroundColor = "green";
-// }
-
-// btn.addEventListener("click", changeColor);
-
-
+// });
 
 // Assign Multiple handlers
 
@@ -305,6 +301,7 @@
 // btn.onclick = function () {
 //     bmw.style.backgroundColor = "green";
 // };
+
 // btn.onclick = function () {
 //     bmw.style.color = "white";
 // };
@@ -313,6 +310,64 @@
 // btn.addEventListener("click", function () {
 //     bmw.style.backgroundColor = "green";
 // });
+
 // btn.addEventListener("click", function () {
 //     bmw.style.color = "white";
 // });
+// btn.addEventListener("click", function () {
+//   alert("button clicked!!!");
+// });
+
+// ****************************
+// Halting default behaviors
+// ****************************
+
+// const link = document.getElementById("link");
+// link.addEventListener("click", function (e) {
+//   e.preventDefault();
+// //   console.log(e);
+
+//   link.innerHTML = "<h1>Hello World</h1>";
+// });
+// const form = document.getElementById("formID");
+// const firstName = document.getElementById("first");
+// console.dir(firstName);
+// const secondName = document.getElementById("second");
+// console.log(secondName);
+
+// const handleSubmit = (e) => {
+//   e.preventDefault();
+//   if (firstName.value.length == 0) {
+//     firstName.style.backgroundColor = "red";
+//   }
+//   if (secondName.value.length == 0) {
+//     secondName.style.backgroundColor = "red";
+//   }
+
+//   if (firstName.value && secondName.value) {
+//     alert(`Thank you ${firstName.value}`);
+//   }
+// };
+
+// form.addEventListener("submit", handleSubmit);
+
+// ****************************
+// Bonus: Event propagation
+// ****************************
+
+document.getElementById("parent").addEventListener(
+    "click",
+    () => {
+        alert("Parent clicked!");
+    }
+);
+// Bubbling phase
+
+document.getElementById("child").addEventListener(
+    "click",
+    e => {
+        e.stopPropagation();
+        alert("Child clicked!");
+    }
+);
+// Bubbling phase
