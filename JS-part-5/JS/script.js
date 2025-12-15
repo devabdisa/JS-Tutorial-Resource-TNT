@@ -38,8 +38,6 @@
 // const test4 = document.querySelectorAll(".red");
 // console.log(test4);
 
-
-
 //  Selecting elements (HTML collection vs NodeList)
 // Selecting multiple elements and changing properties by one instruction
 
@@ -69,21 +67,17 @@
 
 // The returned list is static
 
-
 //   HTMLCollection vs NodeList
 
 // const items = document.getElementsByClassName("red");
 // console.log(items)
 
-
 // const items = document.querySelectorAll(".red");
 // console.log(items)
-
 
 // for (let i = 0; i < items.length; i++) {
 //     items[i].className = "yellow";
 // }
-
 
 // Selecting elements (Traversing)
 
@@ -113,17 +107,12 @@
 
 // console.log(secondChild)
 
-
-
-
 // Altering part I
-
 
 // 1. CreateElement()
 // const newElement = document.createElement('h1')
 // console.log(newElement)
 // newElement.textContent = "New";
-
 
 // innerText, textContent, innerHTML, outerHTML
 
@@ -152,10 +141,6 @@
 // const referenceElement = document.getElementById("two");
 // parent.insertBefore(newElement, referenceElement)
 
-
-
-
-
 // Altering (HTML attributes)
 
 // console.log(document.getElementById("one"))
@@ -182,9 +167,6 @@
 // console.log(toyota)
 // toyota.setAttribute("name", "toyota");
 
-
-
-
 // Altering (inline styling)
 
 // const bmw = document.getElementById("one")
@@ -195,3 +177,88 @@
 // bmw.style.border = "red solid";
 // bmw.style.display = "none";
 // bmw.style.display = "block";
+
+// JavaScript event types
+
+// UI/window events
+
+// Load event
+// unload event
+// error event
+// resize event
+// scroll event
+
+// Keyboard events
+
+// keydown event
+// keyup event
+// keypress event
+
+// Mouse events
+
+// click event
+// dblclick event
+// mouseover event
+// mouseout event
+
+// Form Events
+// change event
+// submit event
+// cut event
+// paste event
+// copy event
+// select event
+
+// Focus and blur events
+// Focus event (onfocus): This event fires when an element gains focus.
+// Blur event (onblur): This event fires when an element loses focus.
+
+// Ways to bind an event (HTML event handlers)
+
+// What are three ways to assign/bind event handlers to an event
+
+// 1.HTML event handlers attribute
+// 2.Traditional DOM event handlers
+// 3.DOM level event listeners
+
+// HTML event handlers attribute
+
+// Define a function on your JS that does something
+// Go to html file and attach the function using an event attribute
+
+// 1.HTML event handlers attribute
+
+// Define a function on your JS that does something
+// Go to html file and attach the function using an event attribute
+
+// Example
+
+// on JS file:
+// function showClickedAlert() {
+//     alert("button clicked!!");
+// }
+
+// on html file:
+// <button onclick="showClickedAlert()">Save</button>
+
+// ********************
+// Javascript Events
+// ********************
+
+// ********************
+// 1. HTML event handlers attribute
+// ********************
+
+const bmw = document.getElementById("one");
+console.log(bmw);
+// bmw.style.color = "white";
+
+function changeColor() {
+  bmw.style.color = "white";
+  bmw.style.backgroundColor = "green";
+}
+
+function removeColor() {
+    bmw.style.color = "";
+    bmw.style.backgroundColor = "";
+}
