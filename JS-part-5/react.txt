@@ -1,0 +1,23 @@
+IntroductionToReact.txt
+
+1 - Introduction: why are we learning ReactJS?
+
+-React learning curve
+
+React has an easier learning curve
+
+Developers don't need to spend a ton of time re-learning the programming language.
+
+React is built on what developers already know → JavaScript.
+
+-React has high demand
+
+Efficient performance (Virtual DOM)
+
+Component-Based Architecture: reusable UI components (heart of React)
+
+Can create large web applications that can change data, without reloading the page
+
+React Native for Mobile Development: React can be used to create mobile applications
+
+React simplifies the process of building complex, interactive UIs by offering a structured, efficient, and declarative approach to front-end development
