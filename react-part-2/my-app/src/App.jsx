@@ -1,7 +1,16 @@
+// import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Product from "./components/Product";
+
 function App() {
-  return <>
-    <h1>hello from main App file</h1>
-  </>;
+  return (
+    <>
+      <Header />
+      <Product />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
